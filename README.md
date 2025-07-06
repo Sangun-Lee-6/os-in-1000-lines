@@ -23,7 +23,7 @@
 아래는 `run.sh`를 통해 QEMU에서 커널을 부팅한 실제 화면입니다.  
 `boot` → `kernel_main` → 무한 루프 진입까지의 과정을 확인할 수 있습니다.
 
-<video src="docs/4.커널 부팅 과정/video/video1.mov" controls width="720"></video>
+![video.gif](./docs/4.커널%20부팅%20과정/video/video1.gif)
 
 - 커널이 정상적으로 로딩되어 실행되고 있음을 `QEMU`와 `objdump`, `info registers`로 확인함
 - pc → `kernel_main`의 무한 루프 주소(`0x80200048`)
